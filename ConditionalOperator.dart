@@ -1,8 +1,12 @@
 void main() { 
-   var a = 10; 
-   var abc = null;
-   var res = a > 12 ? "value greater than 10":"value lesser than or equal to 10"; 
-   print(res); 
-   var result = abc??a;
-   print(result);
-} 
+   //Example-1  
+   var x = null;   
+   var y = 20;   
+   var val = x ?? y;   
+   print(val);
+
+   //Example-2
+   var a = 30;   
+   var output = a > 42 ? "value greater than 10":"value lesser than equal to 30";   
+   print(output);      
+}  
