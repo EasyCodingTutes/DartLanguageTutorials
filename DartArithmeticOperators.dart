@@ -1,7 +1,12 @@
 void main()  
-{  
-  var num = 10;  
-  var name = "JavaTpoint";  
-  print(num is int);    
-  print(name is! String );  
+{ 
+  // Arithmatic Operator Example
+  print(2 + 3 == 5);
+  print(2 - 3 == -1);
+  print(2 * 3 == 6);
+  print(5 / 2 == 2.5); // Result is a double
+  print(5 ~/ 2 == 2); // Result is an int
+  print(5 % 2 == 1); // Remainder
+  
+  print('5/2 = ${5 ~/ 2} r ${5 % 2}' == '5/2 = 2 r 1'); 
 }  
