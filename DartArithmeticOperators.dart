@@ -8,7 +8,7 @@ void main()
   print(5 ~/ 2 == 2); // Result is an int
   print(5 % 2 == 1); // Remainder
   
-  print('5/2 = ${5 ~/ 2} r ${5 % 2}`' == '5/2 = 2 r 1'); 
+  print('5/2 = ${5 ~/ 2} r ${5 % 2}' == '5/2 = 2 r 1'); 
 
   //Increment and decrement
   var x = 30;   
@@ -21,5 +21,5 @@ void main()
   print(--z);                  //The prefix value  
   
   var u = 12;                                           
-   print(u--);                //The postfix value  
+  print(u--);                //The postfix value  
 }  
