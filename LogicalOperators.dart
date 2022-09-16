@@ -1,6 +1,6 @@
 void main(){  
-  bool bool_val1 = true, bool_val2 = false;   
-  print("Example of the logical operators");  
+  print("Example of the logical operators");
+  bool bool_val1 = true, bool_val2 = false;     
     
   var val1 = bool_val1 && bool_val2;  
   print(val1);  
