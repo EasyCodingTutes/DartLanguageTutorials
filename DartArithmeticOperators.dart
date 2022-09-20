@@ -18,5 +18,6 @@ void main()
   var z = 10;  
   print(--z);                  //The prefix value  
   var u = 12;                                           
-  print(u--);                  //The postfix value  
+  print(u--);
+  print(u);                  //The postfix value  
 }  

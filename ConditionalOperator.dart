@@ -5,7 +5,7 @@ void main() {
    print(output);
 
    //If Value Operator
-  var x = 10;   
+  var x = null;   
   var y = 20;   
   var val = x ?? y;   
   print(val);    
