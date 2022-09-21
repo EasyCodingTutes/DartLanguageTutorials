@@ -1,22 +1,20 @@
 void main() {
 	// Dart Number Properties
-	String name = "ECT";
-  double num = 1/0;
-  double nanNum = 0/0;
   int number = 20;
-
+  double n = 1/0;
+  double nan = 0/0;
 
 	// hashcode: It returns the hash code of the given number.
-	print(name.hashCode);
+  print(number.hashCode);
 
 	// isFinite: If the given number is finite, then it returns true.
-  print(num.isFinite);
+  print(n.isFinite);
 
-	// isInfinite: If the number infinite it returns true.
-  print(num.isInfinite);
+	// isInfinite: If the number is infinite it returns true.
+  print(n.isInfinite);
 
 	// isNaN: If the number is non-negative then it returns true.
-  print(nanNum.isNaN);
+  print(nan.isNaN);
 
 	// isNegative: If the number is negative then it returns true.
   print(number.isNegative);
@@ -29,4 +27,5 @@ void main() {
 
 	// isOdd: If the given number is odd then it returns true.
   print(number.isOdd);
+
 }
